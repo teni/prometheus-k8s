@@ -22,6 +22,6 @@ spec:
   volumes:
      - name: prometheus
        hostPath:
-         path: /root/prometheus
+         path: /root/prometheus-k8s/prometheus
          type: Directory
 status: {}
